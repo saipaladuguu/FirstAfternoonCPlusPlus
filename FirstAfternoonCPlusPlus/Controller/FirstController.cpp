@@ -8,9 +8,17 @@
 
 #include <iostream>
 #include "FirstController.h"
+
 using namespace std;
 
-void FirstController:: start()
+
+void FirstController :: start()
 {
     cout << "words here please :D" << endl;
+    this->specialOutput();
+}
+
+void FirstController :: specialOutput()
+{
+    cout << "Hi how old are you?" << endl;
 }

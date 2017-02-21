@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		14DBF69E1E3693C500A3EA6B /* AfternoonRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DBF69D1E3693C500A3EA6B /* AfternoonRunner.cpp */; };
 		14DBF6A01E36959600A3EA6B /* FirstController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DBF69F1E36959600A3EA6B /* FirstController.cpp */; };
+		14E6B9721E4BAC7B00D3094B /* IntArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E6B9701E4BAC7B00D3094B /* IntArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		14DBF69D1E3693C500A3EA6B /* AfternoonRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AfternoonRunner.cpp; path = Controller/AfternoonRunner.cpp; sourceTree = "<group>"; };
 		14DBF69F1E36959600A3EA6B /* FirstController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstController.cpp; path = Controller/FirstController.cpp; sourceTree = "<group>"; };
 		14DBF6A11E36988000A3EA6B /* FirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstController.h; path = Controller/FirstController.h; sourceTree = "<group>"; };
+		14E6B9701E4BAC7B00D3094B /* IntArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntArray.cpp; sourceTree = "<group>"; };
+		14E6B9711E4BAC7B00D3094B /* IntArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,8 @@
 			children = (
 				14DBF69D1E3693C500A3EA6B /* AfternoonRunner.cpp */,
 				14DBF69F1E36959600A3EA6B /* FirstController.cpp */,
+				14E6B9701E4BAC7B00D3094B /* IntArray.cpp */,
+				14E6B9711E4BAC7B00D3094B /* IntArray.hpp */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E6B9721E4BAC7B00D3094B /* IntArray.cpp in Sources */,
 				14DBF6A01E36959600A3EA6B /* FirstController.cpp in Sources */,
 				14DBF69E1E3693C500A3EA6B /* AfternoonRunner.cpp in Sources */,
 			);

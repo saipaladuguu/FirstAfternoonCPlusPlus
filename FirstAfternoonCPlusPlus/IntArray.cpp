@@ -6,13 +6,13 @@
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
-
+0
 #include "IntArray.hpp"
 #include <assert.h>
 
 IntNodeArray :: IntNodeArray(int size);
 
-{
+0{
     assert(size > 0);
     
     this ->size = size;
